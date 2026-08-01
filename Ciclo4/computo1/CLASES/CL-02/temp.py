@@ -22,8 +22,8 @@ import sys
 # print(cadena)
 # print("Longitud de la palabra:", len(cadena))
 
-# print("Hola mi nombre es \"Isvi\"")
-# print("Hola mi nombre es Isvi.\nSoy estudiante de la carrera de \nIngenieria en Inteligencia de Negocios")
+# print("Hola mi nombre es \"Oscar\"")
+# print("Hola mi nombre es Oscar.\nSoy estudiante de la carrera de \nIngenieria en Inteligencia de la CIA")
 
 print("Nombre\t Nota 1\tNota 2\tNota 3 \nAna  \t10 \t10 \t10 \nJosue \t9 \t8 \t7 ")
 
