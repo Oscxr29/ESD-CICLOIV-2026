@@ -76,9 +76,8 @@ class Telefono:
         self.numero = numero
 
 
-# =====================================================================
 # Casos de uso: un ejemplo válido y uno inválido por cada clase
-# =====================================================================
+
 
 print("--- Email ---")
 try:
@@ -141,9 +140,9 @@ except ValueError as err:
     print("Rechazado:", err)
 
 
-# =====================================================================
-# Un poco de contexto: qué hace cada clase y qué revisa antes de aceptar
-# =====================================================================
+
+# Un poco de contexto: qué hace cada clase y qué revisa antes de validar
+
 #
 # Email:
 #   Esta clase representa un correo electrónico, pero no deja que
