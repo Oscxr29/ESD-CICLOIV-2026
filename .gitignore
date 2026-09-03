@@ -1,0 +1,37 @@
+# Bytecode y cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Distribución / empaquetado
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing y type checking
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Variables de entorno / secretos
+.env
+.env.local
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
