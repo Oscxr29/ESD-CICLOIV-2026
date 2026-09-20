@@ -2,15 +2,16 @@
 
 Repositorio académico del curso de **Manejo y Estructura de Datos**.
 
-Este repositorio contiene los ejercicios, prácticas, tareas y material de la materia de computo 1, organizados por cuadernillos y clases.
+Este repositorio contiene los ejercicios, prácticas, tareas y material de la materia de Manejo y Estructura de Datos, organizados por cómputo y clase.
 
 ## Navegación rápida
 
-- [Computo 1](Ciclo4/computo1/readme.md)
+- [Computo 1](Ciclo4/computo1)
+- [Computo 2](Ciclo4/computo2)
 - [CLASES](Ciclo4/computo1/CLASES)
 - [LAB-01](Ciclo4/computo1/CLASES/LAB-01)
-- [Practicas](Ciclo4/computo1/CLASES/Practicas)
-- [TAREAS](Ciclo4/computo1/CLASES/TAREAS)
+- [Practicas](Ciclo4/Practicas)
+- [TAREAS](Ciclo4/TAREAS)
 
 ---
 
@@ -20,19 +21,23 @@ Este repositorio contiene los ejercicios, prácticas, tareas y material de la ma
 ESD/
 ├── README.md
 ├── Ciclo4/
-│   └── computo1/
-│       ├── readme.md
-│       └── CLASES/
-│           ├── CL-01/
-│           ├── CL-02/
-│           ├── CL-03/
-│           ├── CL-07/
-│           ├── CL-08/
-│           ├── CL-09/
-│           ├── CL-10/
-│           ├── LAB-01/
-│           ├── Practicas/
-│           └── TAREAS/
+│   ├── computo1/
+│   │   └── CLASES/
+│   │       ├── CL-01/
+│   │       ├── CL-02/
+│   │       ├── CL-03/
+│   │       ├── CL-07/
+│   │       ├── CL-08/
+│   │       ├── CL-09/
+│   │       ├── CL-10/
+│   │       └── LAB-01/
+│   ├── computo2/
+│   │   ├── CL-15/
+│   │   └── CL-17/
+│   ├── Practicas/
+│   │   └── computo1/
+│   └── TAREAS/
+│       └── computo1/
 ```
 
 ---
@@ -101,28 +106,40 @@ Ejercicios y trabajos prácticos del laboratorio de la materia.
 
 ## Tareas
 
-- [TAREAS](Ciclo4/computo1/CLASES/TAREAS)
-- [Ejercicio_String.py](Ciclo4/computo1/CLASES/TAREAS/Ejercicio_String.py)
-- [ejertuplas.py](Ciclo4/computo1/CLASES/TAREAS/ejertuplas.py)
+- [TAREAS](Ciclo4/TAREAS)
+- [Tareas de Computo 1](Ciclo4/TAREAS/computo1)
+- [Ejercicio_String.py](Ciclo4/TAREAS/computo1/Ejercicio_String.py)
+- [ejertuplas.py](Ciclo4/TAREAS/computo1/ejertuplas.py)
 
 ---
 
 ## Prácticas
 
-- [Practicas](Ciclo4/computo1/CLASES/Practicas)
+- [Practicas](Ciclo4/Practicas)
+- [Prácticas de Computo 1](Ciclo4/Practicas/computo1)
 
 Incluye ejercicios y archivos de práctica realizados durante la asignatura.
 
 ---
 
+## Computo 2
+
+- [CL-15](Ciclo4/computo2/CL-15)
+- [CL-17](Ciclo4/computo2/CL-17)
+
+Las nuevas clases, prácticas y tareas de este cómputo pueden agregarse en sus respectivas categorías sin modificar la organización del cómputo 1.
+
+---
+
 ## Materia actual
 
-- [Computo 1](Ciclo4/computo1/readme.md)
+- [Computo 1](Ciclo4/computo1)
 - [CL-01](Ciclo4/computo1/CLASES/CL-01/index.py)
 - [CL-07](Ciclo4/computo1/CLASES/CL-07/listas.py)
 - [CL-08](Ciclo4/computo1/CLASES/CL-08/dict.py)
 - [CL-09](Ciclo4/computo1/CLASES/CL-09/ejersets.py)
 - [CL-10](Ciclo4/computo1/CLASES/CL-10/pila.py)
+- [Computo 2](Ciclo4/computo2)
 
 ---
 
