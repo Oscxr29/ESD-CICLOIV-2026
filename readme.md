@@ -1,152 +1,97 @@
-# ESD - Repositorio de clases
 
-Repositorio académico del curso de **Manejo y Estructura de Datos**.
+```markdown
+# ESD - Manejo y Estructura de Datos
 
-Este repositorio contiene los ejercicios, prácticas, tareas y material de la materia de Manejo y Estructura de Datos, organizados por cómputo y clase.
+Repositorio académico del curso **Manejo y Estructura de Datos**. Contiene
+clases, prácticas, tareas y laboratorios desarrollados en Python.
 
-## Navegación rápida
+## Requisitos
 
-- [Computo 1](Ciclo4/computo1)
-- [Computo 2](Ciclo4/computo2)
-- [CLASES](Ciclo4/computo1/CLASES)
-- [LAB-01](Ciclo4/computo1/CLASES/LAB-01)
-- [Practicas](Ciclo4/Practicas)
-- [TAREAS](Ciclo4/TAREAS)
+- Python 3.10 o una versión posterior.
+- Visual Studio Code, PyCharm u otro editor compatible con Python.
+- Jupyter Notebook para ejecutar los archivos `.ipynb`.
 
----
+Los scripts utilizan la biblioteca estándar de Python, por lo que no requieren
+dependencias adicionales.
 
-## Estructura general del proyecto
+## Uso rápido
+
+Clona el repositorio y entra en su carpeta:
+
+```powershell
+git clone [https://github.com/Oscxr29/ESD-CICLOIV-2026.git](https://github.com/Oscxr29/ESD-CICLOIV-2026.git)
+Set-Location .\ESD-CICLOIV-2026
+
+```
+
+Ejecuta un script de Python:
+
+```powershell
+python .\Ciclo4\computo1\CLASES\CL-01\index.py
+
+```
+
+Si `python` no está disponible, utiliza `py`:
+
+```powershell
+py .\Ciclo4\computo1\CLASES\CL-01\index.py
+
+```
+
+Para abrir los cuadernillos de Jupyter:
+
+```powershell
+python -m pip install notebook
+jupyter notebook
+
+```
+
+Después, abre el archivo `.ipynb` correspondiente desde la carpeta `Ciclo4\Practicas`.
+
+> **Nota:** Algunos ejercicios solicitan datos mediante `input()`. Asegúrate de ejecutarlos desde una terminal interactiva.
+
+## Árbol de directorios
 
 ```text
 ESD/
 ├── README.md
-├── Ciclo4/
-│   ├── computo1/
-│   │   └── CLASES/
-│   │       ├── CL-01/
-│   │       ├── CL-02/
-│   │       ├── CL-03/
-│   │       ├── CL-07/
-│   │       ├── CL-08/
-│   │       ├── CL-09/
-│   │       ├── CL-10/
-│   │       └── LAB-01/
-│   ├── computo2/
-│   │   ├── CL-15/
-│   │   └── CL-17/
-│   ├── Practicas/
-│   │   ├── computo1/
-│   │   └── computo2/
-│   └── TAREAS/
-│       ├── computo1/
-│       └── computo2/
+└── Ciclo4/
+    ├── computo1/
+    │   └── CLASES/        # Contiene teoría, scripts (CL-01 a CL-10) y el LAB-01
+    ├── computo2/          # Contiene las nuevas clases y estructuras (CL-15 en adelante)
+    ├── Practicas/
+    │   ├── computo1/      # Ejercicios básicos (P1 a P4) y Jupyter Notebooks
+    │   └── computo2/      # Ejercicios avanzados (P5 a P8, matrices, árboles binarios)
+    └── TAREAS/
+        ├── computo1/      # Entregables y evaluaciones del primer cómputo
+        └── computo2/      # Entregables y evaluaciones del segundo cómputo
+
 ```
 
----
+## Navegación rápida
 
-## Cuadernillo 1
+* 📁 [Cómputo 1](https://www.google.com/search?q=./Ciclo4/computo1)
+* 📁 [Cómputo 2](https://www.google.com/search?q=./Ciclo4/computo2)
+* 💻 [Prácticas](https://www.google.com/search?q=./Ciclo4/Practicas)
+* 📝 [Tareas](https://www.google.com/search?q=./Ciclo4/TAREAS)
 
-### Clase 01
-- [CL-01](Ciclo4/computo1/CLASES/CL-01)
-- [index.py](Ciclo4/computo1/CLASES/CL-01/index.py)
+## Resumen de contenidos
 
-### Clase 02
-- [CL-02](Ciclo4/computo1/CLASES/CL-02)
+### Cómputo 1
 
-### Clase 03
-- [CL-03](Ciclo4/computo1/CLASES/CL-03)
+Variables, tipos de datos, entrada de datos, operadores, listas, índices,
+diccionarios, tuplas, conjuntos, pilas y ejercicios de laboratorio.
 
-### Contenido de este cuadernillo
-- Variables
-- Tipos de datos
-- Operadores matemáticos
-- Uso de `input()`
-- Conversión de datos con `str()`
+### Cómputo 2
 
----
+Condicionales, funciones, manejo avanzado de pilas, colas, matrices, árboles binarios y ejercicios prácticos de estructuras de datos.
 
-## Cuadernillo 2
+## Organización del material
 
-### Clase 07
-- [CL-07](Ciclo4/computo1/CLASES/CL-07)
-- [indices.py](Ciclo4/computo1/CLASES/CL-07/indices.py)
-- [listas.py](Ciclo4/computo1/CLASES/CL-07/listas.py)
+* Las clases y el laboratorio se encuentran en `Ciclo4/computo1/CLASES` y `Ciclo4/computo2`.
+* Las prácticas (scripts y notebooks) se dividen en `Ciclo4/Practicas/computo1` y `Ciclo4/Practicas/computo2`.
+* Las tareas asignadas se organizan en `Ciclo4/TAREAS/computo1` y `Ciclo4/TAREAS/computo2`.
 
-### Clase 08
-- [CL-08](Ciclo4/computo1/CLASES/CL-08)
-- [dict.py](Ciclo4/computo1/CLASES/CL-08/dict.py)
-- [dict2.py](Ciclo4/computo1/CLASES/CL-08/dict2.py)
-- [dictejer.py](Ciclo4/computo1/CLASES/CL-08/dictejer.py)
+```
 
-### Clase 09
-- [CL-09](Ciclo4/computo1/CLASES/CL-09)
-- [ejercicio.py](Ciclo4/computo1/CLASES/CL-09/ejercicio.py)
-- [ejersets.py](Ciclo4/computo1/CLASES/CL-09/ejersets.py)
-- [tuplas.py](Ciclo4/computo1/CLASES/CL-09/tuplas.py)
-
-### Clase 10
-- [CL-10](Ciclo4/computo1/CLASES/CL-10)
-- [pila.py](Ciclo4/computo1/CLASES/CL-10/pila.py)
-
-### Contenido de este cuadernillo
-- Listas
-- Índices y slicing
-- Diccionarios
-- Tuplas
-- Sets o conjuntos
-- Pilas
-
----
-
-## Laboratorio
-
-- [LAB-01](Ciclo4/computo1/CLASES/LAB-01)
-
-Ejercicios y trabajos prácticos del laboratorio de la materia.
-
----
-
-## Tareas
-
-- [TAREAS](Ciclo4/TAREAS)
-- [Tareas de Computo 1](Ciclo4/TAREAS/computo1)
-- [Tareas de Computo 2](Ciclo4/TAREAS/computo2)
-- [Ejercicio_String.py](Ciclo4/TAREAS/computo1/Ejercicio_String.py)
-- [ejertuplas.py](Ciclo4/TAREAS/computo1/ejertuplas.py)
-
----
-
-## Prácticas
-
-- [Practicas](Ciclo4/Practicas)
-- [Prácticas de Computo 1](Ciclo4/Practicas/computo1)
-- [Prácticas de Computo 2](Ciclo4/Practicas/computo2)
-
-Incluye ejercicios y archivos de práctica realizados durante la asignatura.
-
----
-
-## Computo 2
-
-- [CL-15](Ciclo4/computo2/CL-15)
-- [CL-17](Ciclo4/computo2/CL-17)
-
-Las nuevas clases, prácticas y tareas de este cómputo pueden agregarse en sus respectivas categorías sin modificar la organización del cómputo 1.
-
----
-
-## Materia actual
-
-- [Computo 1](Ciclo4/computo1)
-- [CL-01](Ciclo4/computo1/CLASES/CL-01/index.py)
-- [CL-07](Ciclo4/computo1/CLASES/CL-07/listas.py)
-- [CL-08](Ciclo4/computo1/CLASES/CL-08/dict.py)
-- [CL-09](Ciclo4/computo1/CLASES/CL-09/ejersets.py)
-- [CL-10](Ciclo4/computo1/CLASES/CL-10/pila.py)
-- [Computo 2](Ciclo4/computo2)
-
----
-
-## Resumen
-
-Este repositorio está enfocado en la práctica de programación en Python con conceptos fundamentales y estructuras de datos, distribuidos por clases, tareas y laboratorios.
+```
