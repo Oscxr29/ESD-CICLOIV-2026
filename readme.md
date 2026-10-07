@@ -35,9 +35,11 @@ ESD/
 │   │   ├── CL-15/
 │   │   └── CL-17/
 │   ├── Practicas/
-│   │   └── computo1/
+│   │   ├── computo1/
+│   │   └── computo2/
 │   └── TAREAS/
-│       └── computo1/
+│       ├── computo1/
+│       └── computo2/
 ```
 
 ---
@@ -108,6 +110,7 @@ Ejercicios y trabajos prácticos del laboratorio de la materia.
 
 - [TAREAS](Ciclo4/TAREAS)
 - [Tareas de Computo 1](Ciclo4/TAREAS/computo1)
+- [Tareas de Computo 2](Ciclo4/TAREAS/computo2)
 - [Ejercicio_String.py](Ciclo4/TAREAS/computo1/Ejercicio_String.py)
 - [ejertuplas.py](Ciclo4/TAREAS/computo1/ejertuplas.py)
 
@@ -117,6 +120,7 @@ Ejercicios y trabajos prácticos del laboratorio de la materia.
 
 - [Practicas](Ciclo4/Practicas)
 - [Prácticas de Computo 1](Ciclo4/Practicas/computo1)
+- [Prácticas de Computo 2](Ciclo4/Practicas/computo2)
 
 Incluye ejercicios y archivos de práctica realizados durante la asignatura.
 
@@ -146,4 +150,3 @@ Las nuevas clases, prácticas y tareas de este cómputo pueden agregarse en sus 
 ## Resumen
 
 Este repositorio está enfocado en la práctica de programación en Python con conceptos fundamentales y estructuras de datos, distribuidos por clases, tareas y laboratorios.
-
